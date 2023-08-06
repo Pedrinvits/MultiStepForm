@@ -1,11 +1,9 @@
 import * as C from './styles';
 import { Link } from 'react-router-dom';
-import React from 'react';
-import { ReactComponent as ProfileIcon } from '../../svg/profile.svg';
-import { ReactComponent as BookIcon } from '../../svg/book.svg';
-import { ReactComponent as MailIcon } from '../../svg/mail.svg';
-import { ReactComponent as CheckIcon } from '../../svg/check.svg';
-
+import { ProfileIcon } from '../../Svgs/ProfileSvg/ProfileSvg';
+import {BookIcon} from '../../Svgs/BookSvg/BookSvg';
+import { MailIcon } from '../../Svgs/MailSvg/MailSvg';
+import { CheckIcon } from '../../Svgs/CheckSvg/CheckSvg';
 type Props = {
     title : string,
     description : string,
